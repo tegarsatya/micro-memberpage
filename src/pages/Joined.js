@@ -44,12 +44,7 @@ export default function Joined({ history, match }) {
         You have successfully joined our{" "}
         <strong>{state?.data?.name ?? "Class Name"}</strong> class
       </p>
-      <Link
-        className="cursor-pointer bg-orange-500 hover:bg-orange-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3 mt-5"
-        to={`/courses/${match.params.class}`}
-      >
-        Start learn
-      </Link>
+  
     </section>
   );
 }
